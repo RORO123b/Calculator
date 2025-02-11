@@ -1,23 +1,44 @@
-# Simple Calculator App using Kivy
+# Kivy Calculator App
 
-This is a simple calculator application built using the Kivy framework in Python. The calculator supports basic arithmetic operations such as addition, subtraction, multiplication, and division. It also includes a clear button (`C`), a delete button (`Del`), and an equals button (`=`) to compute the result.
+A simple calculator application built using the Kivy framework in Python.
 
 ## Features
-
-- **Basic Arithmetic Operations**: Supports addition (`+`), subtraction (`-`), multiplication (`*`), and division (`/`).
-- **Clear Button (`C`)**: Clears the entire input field.
-- **Delete Button (`Del`)**: Deletes the last character from the input field.
-- **Equals Button (`=`)**: Computes the result of the expression in the input field.
-- **User-Friendly Interface**: The calculator has a simple and intuitive interface with large buttons and a readable display.
+- Basic arithmetic operations: Addition, Subtraction, Multiplication, and Division.
+- Clear (C) button to reset the input field.
+- Delete (Del) button to remove the last entered character.
+- Decimal point support.
+- Displays results dynamically in a text input field.
 
 ## Requirements
-
-To run this application, you need to have the following installed:
-
-- Python 3.x
-- Kivy library
-
-You can install Kivy using pip:
-
-```bash
+Ensure you have Python installed along with Kivy:
+```sh
 pip install kivy
+```
+
+## How to Run
+Clone the repository and navigate to the project folder. Then, run the following command:
+```sh
+python calculator.py
+```
+
+## File Structure
+```
+calculator.py   # Main application file
+calculator.png  # Application icon
+calculatorsplash.png #Application splash icon
+README.md       # Documentation
+```
+
+## Usage
+- Use the buttons to enter numbers and operators.
+- Press `=` to compute the result.
+- Use `Del` to remove the last character.
+- Press `C` to clear the input field.
+
+## License
+This project is open-source and available for personal and educational use.
+
+---
+### Author
+Robert Cristian Barbulescu
+
